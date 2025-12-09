@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "VK",
+    "slug": "vk-music",
+    "version": "1.0.0",
+    "scheme": "musicy-mobile",
+    "orientation": "portrait",
+    "icon": "./assets/vk_logo.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/vk_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "usesCleartextTraffic": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/vk_adaptive_icon.png",
+        "backgroundColor": "#000000"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.vkwizz.VK"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6b9ad087-ec94-4c69-a0a7-03d09941011b"
+      }
+    }
+  }
+}
