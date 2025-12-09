@@ -1,0 +1,71 @@
+{
+  "userProfile": {
+    "name": "Music",
+    "bio": "Music is my life"
+  },
+  "likedSongs": [
+    {
+      "videoId": "TkRXBEq58zs",
+      "title": "Yaarumillaa Full Video Song || Dhruv Vikram,Banita Sandhu|| Gireesaaya || Radhan",
+      "thumbnail": "https://i.ytimg.com/vi/TkRXBEq58zs/mqdefault.jpg",
+      "channelTitle": "Aditya Music",
+      "likedAt": "2025-12-08T21:36:39.632Z"
+    },
+    {
+      "videoId": "8PXUzdXxrl8",
+      "title": "Full Video: Parichayamila 8 Vasantalu | Ananthika Sanilkumar | Phanindra Narsetti | Hesham | Chithra",
+      "thumbnail": "https://i.ytimg.com/vi/8PXUzdXxrl8/mqdefault.jpg",
+      "channelTitle": "T-Series Telugu",
+      "likedAt": "2025-12-08T21:36:30.473Z"
+    }
+  ],
+  "playHistory": [
+    {
+      "videoId": "TkRXBEq58zs",
+      "title": "Yaarumillaa Full Video Song || Dhruv Vikram,Banita Sandhu|| Gireesaaya || Radhan",
+      "thumbnail": "https://i.ytimg.com/vi/TkRXBEq58zs/mqdefault.jpg",
+      "channelTitle": "Aditya Music",
+      "timestamp": "2025-12-08T21:54:07.706Z"
+    },
+    {
+      "videoId": "8PXUzdXxrl8",
+      "title": "Full Video: Parichayamila 8 Vasantalu | Ananthika Sanilkumar | Phanindra Narsetti | Hesham | Chithra",
+      "thumbnail": "https://i.ytimg.com/vi/8PXUzdXxrl8/mqdefault.jpg",
+      "channelTitle": "T-Series Telugu",
+      "timestamp": "2025-12-08T21:36:05.746Z"
+    },
+    {
+      "videoId": "yQbuUKP_jiE",
+      "title": "Veyi Kannulatho | Nee Sneham | Uday Kiran, Aarti Agarwal | R. P. Patnaik, Usha | Telugu Love Songs",
+      "thumbnail": "https://i.ytimg.com/vi/yQbuUKP_jiE/mqdefault.jpg",
+      "channelTitle": "Tips Telugu",
+      "timestamp": "2025-12-08T20:55:52.323Z"
+    }
+  ],
+  "playlists": [
+    {
+      "id": "1765229810695",
+      "name": "tr",
+      "ownerId": "guest",
+      "tracks": []
+    },
+    {
+      "id": "1765230206753",
+      "name": "n",
+      "ownerId": "guest",
+      "tracks": []
+    }
+  ],
+  "playCounts": {
+    "TkRXBEq58zs": 3,
+    "8PXUzdXxrl8": 2,
+    "yQbuUKP_jiE": 1
+  },
+  "artistCounts": {
+    "Aditya Music": 3,
+    "T-Series Telugu": 2,
+    "Tips Telugu": 1
+  },
+  "totalPlays": 6,
+  "searchHistory": []
+}

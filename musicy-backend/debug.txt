@@ -1,0 +1,978 @@
+Running yt-dlp with args: https://www.youtube.com/watch?v=dQw4w9WgXcQ --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: ytsearch10:Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster) Rick Astley mix --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=dQw4w9WgXcQ --dump-json --no-playlist --no-warnings
+yt-dlp success. Output length: 632446
+Running yt-dlp with args: ytsearch10:Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster) Rick Astley mix --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 21513
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28876
+yt-dlp success. Output length: 28215
+yt-dlp success. Output length: 28663
+Running yt-dlp with args: ytsearch15:her --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29358
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28726
+yt-dlp success. Output length: 27993
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 26768
+Running yt-dlp with args: https://www.youtube.com/watch?v=y2ecafXmnIY --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=y2ecafXmnIY --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 28904
+yt-dlp success. Output length: 28210
+yt-dlp success. Output length: 28651
+yt-dlp success. Output length: 605896
+Running yt-dlp with args: ytsearch10:JVKE - "her" (feat. ZVC) JVKE mix --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 1096
+yt-dlp success. Output length: 19112
+Running yt-dlp with args: https://www.youtube.com/watch?v=yR35yzpRDxU --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1089
+Running yt-dlp with args: ytsearch15:pallanathw --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:pallanath --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:pallanathe --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 1972
+yt-dlp success. Output length: 28490
+yt-dlp success. Output length: 29334
+Running yt-dlp with args: https://www.youtube.com/watch?v=ZYlsT4XYYSo --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=ZYlsT4XYYSo --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1092
+yt-dlp success. Output length: 605156
+Running yt-dlp with args: ytsearch10:Palaanadhu Palaanadhu - 4K Video Song பலானது பலானது| Kuruvi | Vijay | Trisha | Vidyasagar | Ayngaran Ayngaran Music mix --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 26275
+Running yt-dlp with args: https://www.youtube.com/watch?v=DBM9sydclx0 --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1090
+Running yt-dlp with args: https://www.youtube.com/watch?v=DBM9sydclx0 --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: ytsearch15:her --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 26804
+yt-dlp success. Output length: 1090
+Running yt-dlp with args: ytsearch15:aga na --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:aga naga --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 27258
+yt-dlp success. Output length: 28197
+Running yt-dlp with args: https://www.youtube.com/watch?v=-E2mRSZvJlM --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=-E2mRSZvJlM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1132
+yt-dlp success. Output length: 613868
+Running yt-dlp with args: ytsearch10:Aga Naga - Full Video | PS2 Tamil | @ARRahman | Mani Ratnam | Karthi, Trisha | Shakthisree Gopalan Tips Tamil mix --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=-E2mRSZvJlM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1105
+Running yt-dlp with args: https://www.youtube.com/watch?v=dQw4w9WgXcQ --dump-json --no-playlist --no-warnings
+yt-dlp success. Output length: 633561
+Running yt-dlp with args: ytsearch15:Rick Astley Rick Astley similar songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29890
+Running yt-dlp with args: ytsearch15:heat --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:heat  --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:heat wa --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:heat wavess --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:heat waves --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 27228
+yt-dlp success. Output length: 28002
+yt-dlp success. Output length: 27228
+yt-dlp success. Output length: 28172
+yt-dlp success. Output length: 28242
+Running yt-dlp with args: https://www.youtube.com/watch?v=mRD0-GxqHVo --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=mRD0-GxqHVo --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1111
+yt-dlp success. Output length: 130104
+Running yt-dlp with args: ytsearch15:Glass Animals Glass Animals similar songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29561
+Running yt-dlp with args: https://www.youtube.com/watch?v=dQw4w9WgXcQ --dump-json --no-playlist --no-warnings
+yt-dlp success. Output length: 633418
+Running yt-dlp with args: ytsearch15:Rick Astley Rick Astley similar songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 30094
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:her --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28655
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28158
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28649
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 26816
+Running yt-dlp with args: https://www.youtube.com/watch?v=y2ecafXmnIY --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=y2ecafXmnIY --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 28663
+yt-dlp success. Output length: 28346
+yt-dlp success. Output length: 29105
+yt-dlp success. Output length: 1097
+yt-dlp success. Output length: 607865
+Running yt-dlp with args: ytsearch15:JVKE JVKE similar songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29258
+Running yt-dlp with args: https://www.youtube.com/watch?v=ZFYtSEd8aQk --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=CIkbzQ_yTso --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=fVDtzFsCc94 --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=mQ_RG6X3NZs --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=hxSt76tqeYU --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1098
+yt-dlp success. Output length: 1095
+yt-dlp success. Output length: 1088
+yt-dlp success. Output length: 1096
+yt-dlp success. Output length: 1086
+Running yt-dlp with args: https://www.youtube.com/watch?v=y2ecafXmnIY --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=y2ecafXmnIY --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=p59-woJw0Pw --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=p59-woJw0Pw --dump-json --no-playlist --no-warnings
+yt-dlp success. Output length: 1087
+yt-dlp success. Output length: 606944
+Running yt-dlp with args: ytsearch15:JVKE JVKE similar songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29258
+yt-dlp success. Output length: 1110
+yt-dlp success. Output length: 94646
+Running yt-dlp with args: ytsearch15:JVKE Ethereal Music similar songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29214
+Running yt-dlp with args: https://www.youtube.com/watch?v=dQw4w9WgXcQ --dump-json --no-playlist --no-warnings
+yt-dlp success. Output length: 632442
+Running yt-dlp with args: ytsearch20:Rick Astley Rick Astley similar songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 40630
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:her --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28158
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28639
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28205
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 26813
+yt-dlp success. Output length: 28158
+yt-dlp success. Output length: 28979
+yt-dlp success. Output length: 28745
+Running yt-dlp with args: https://www.youtube.com/watch?v=y2ecafXmnIY --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=y2ecafXmnIY --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 606826
+Running yt-dlp with args: ytsearch20:JVKE JVKE similar songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 1091
+yt-dlp success. Output length: 38924
+Running yt-dlp with args: https://www.youtube.com/watch?v=9bARZDVUB5Y --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=9bARZDVUB5Y --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 605558
+Running yt-dlp with args: ytsearch20:playing my song for my cousin ‘this is what autumn feels like’ #jvke #goldenhour JVKE similar songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 1095
+yt-dlp success. Output length: 46043
+Running yt-dlp with args: https://www.youtube.com/watch?v=9v4BbzYiQUs --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1102
+Running yt-dlp with args: https://www.youtube.com/watch?v=dQw4w9WgXcQ --dump-json --no-playlist --no-warnings
+yt-dlp success. Output length: 632691
+Running yt-dlp with args: ytsearch25:Rick Astley rick astley nggyu songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 49394
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28210
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28840
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 27893
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:her --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28210
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28647
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28992
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 26838
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28158
+yt-dlp success. Output length: 28659
+yt-dlp success. Output length: 29063
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 28992
+yt-dlp success. Output length: 28157
+yt-dlp success. Output length: 28783
+yt-dlp success. Output length: 600525
+Running yt-dlp with args: ytsearch25:JVKE Jake golden hour songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 1096
+yt-dlp success. Output length: 49228
+Running yt-dlp with args: ytsearch15:oo --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:ooru --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:oorum blood --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 27699
+yt-dlp success. Output length: 28261
+yt-dlp success. Output length: 28827
+Running yt-dlp with args: https://www.youtube.com/watch?v=4Bsc2uI_LsM --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=4Bsc2uI_LsM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 625612
+Running yt-dlp with args: ytsearch25:Think Music India Oorum Blood Dude Movie songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 1092
+yt-dlp success. Output length: 51822
+Running yt-dlp with args: https://www.youtube.com/watch?v=4Bsc2uI_LsM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1100
+Running yt-dlp with args: https://www.youtube.com/watch?v=4Bsc2uI_LsM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1092
+Running yt-dlp with args: https://www.youtube.com/watch?v=4Bsc2uI_LsM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1090
+Running yt-dlp with args: https://www.youtube.com/watch?v=dQw4w9WgXcQ --dump-json --no-playlist --no-warnings
+yt-dlp success. Output length: 633381
+Running yt-dlp with args: ytsearch25:best  nggyu songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 47582
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:her --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28158
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28992
+yt-dlp success. Output length: 28659
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 26916
+yt-dlp success. Output length: 29110
+yt-dlp success. Output length: 28733
+yt-dlp success. Output length: 27890
+Running yt-dlp with args: https://www.youtube.com/watch?v=y2ecafXmnIY --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=y2ecafXmnIY --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 607495
+Running yt-dlp with args: ytsearch25:Jake hit songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 1091
+yt-dlp success. Output length: 46648
+Running yt-dlp with args: https://www.youtube.com/watch?v=3FS2_ogVYZw --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1096
+Running yt-dlp with args: https://www.youtube.com/watch?v=hSlb1ezRqfA --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=2_evn2rg-80 --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1096
+yt-dlp success. Output length: 1098
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28714
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28940
+yt-dlp success. Output length: 28158
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28719
+yt-dlp success. Output length: 28979
+yt-dlp success. Output length: 28051
+Running yt-dlp with args: ytsearch15:her --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 26938
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1095
+yt-dlp success. Output length: 601120
+Running yt-dlp with args: ytsearch25:Jake hit songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 46915
+Running yt-dlp with args: ytsearch15:505 --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 27542
+Running yt-dlp with args: https://www.youtube.com/watch?v=qU9mHegkTc4 --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=qU9mHegkTc4 --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 94480
+Running yt-dlp with args: ytsearch25:Arctic Monkeys music playlist --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 1097
+yt-dlp success. Output length: 48493
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28992
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28158
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28745
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28965
+yt-dlp success. Output length: 28158
+yt-dlp success. Output length: 28652
+Running yt-dlp with args: https://www.youtube.com/watch?v=bpOSxM0rNPM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1084
+Running yt-dlp with args: https://www.youtube.com/watch?v=bpOSxM0rNPM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1098
+Running yt-dlp with args: https://www.youtube.com/watch?v=bpOSxM0rNPM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1092
+Running yt-dlp with args: https://www.youtube.com/watch?v=bpOSxM0rNPM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1092
+Running yt-dlp with args: https://www.youtube.com/watch?v=bpOSxM0rNPM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1089
+Running yt-dlp with args: https://www.youtube.com/watch?v=qU9mHegkTc4 --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=bpOSxM0rNPM --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=qU9mHegkTc4 --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=qU9mHegkTc4 --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 93980
+Running yt-dlp with args: ytsearch25:Arctic Monkeys music playlist --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 1103
+Running yt-dlp with args: ytsearch15:i  --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 48101
+yt-dlp success. Output length: 27779
+Running yt-dlp with args: https://www.youtube.com/watch?v=bpOSxM0rNPM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1098
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29387
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28732
+yt-dlp success. Output length: 28158
+Running yt-dlp with args: ytsearch15:her --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28674
+yt-dlp success. Output length: 28862
+yt-dlp success. Output length: 26804
+yt-dlp success. Output length: 28158
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 601117
+Running yt-dlp with args: ytsearch25:top Jake songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 1098
+yt-dlp success. Output length: 46672
+Running yt-dlp with args: https://www.youtube.com/watch?v=iOHMIWpyqfo --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=2_evn2rg-80 --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=hSlb1ezRqfA --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1100
+yt-dlp success. Output length: 1098
+yt-dlp success. Output length: 1082
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28158
+Running yt-dlp with args: ytsearch15:lofi hip hop --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28992
+yt-dlp success. Output length: 28801
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:top hits 2024 --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28158
+yt-dlp success. Output length: 28734
+yt-dlp success. Output length: 28732
+Running yt-dlp with args: ytsearch15:h --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:hi sonna --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 27835
+yt-dlp success. Output length: 29352
+Running yt-dlp with args: https://www.youtube.com/watch?v=G_UEVscPspo --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=G_UEVscPspo --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 104928
+Running yt-dlp with args: ytsearch25:Tamil Sony Music hit songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 1102
+yt-dlp success. Output length: 49433
+Running yt-dlp with args: https://www.youtube.com/watch?v=nyuo9-OjNNg --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1102
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28992
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=Y23dN3JZrcE --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 28979
+yt-dlp success. Output length: 1092
+Running yt-dlp with args: https://www.youtube.com/watch?v=8jhC9xnJGYU --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=fTKqtvXjkvo --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=Y23dN3JZrcE --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=P82L8v_r3Bc --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=WBF3lcqpOJY --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1102
+yt-dlp success. Output length: 1099
+yt-dlp success. Output length: 1098
+yt-dlp success. Output length: 1132
+yt-dlp success. Output length: 1107
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29028
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29131
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28992
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28921
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28979
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=Y23dN3JZrcE --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 29068
+yt-dlp success. Output length: 1122
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28979
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29044
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28992
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28992
+Running yt-dlp with args: ytsearch15:her --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 26728
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1114
+yt-dlp success. Output length: 601015
+Running yt-dlp with args: ytsearch25:Jake music playlist --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 46964
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28979
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28992
+Running yt-dlp with args: ytsearch15:her --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 26804
+Running yt-dlp with args: https://www.youtube.com/watch?v=ZxE0QzE2K9o --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=ZxE0QzE2K9o --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1118
+yt-dlp success. Output length: 620467
+Running yt-dlp with args: ytsearch25:best  Jake songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 49061
+Running yt-dlp with args: https://www.youtube.com/watch?v=Y23dN3JZrcE --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1114
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28992
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28992
+Running yt-dlp with args: ytsearch15:her --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 26824
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 600527
+Running yt-dlp with args: ytsearch25:melody songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 1091
+yt-dlp success. Output length: 48732
+Running yt-dlp with args: https://www.youtube.com/watch?v=nYZBDoWOPqM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1098
+Running yt-dlp with args: https://www.youtube.com/watch?v=7EqdUVLeJBg --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=z5_klHXYZS4 --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=8PXUzdXxrl8 --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=dojDiUyL8G8 --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=MAa_8XwAVlA --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=LbrJZgyqp5w --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1098
+yt-dlp success. Output length: 1098
+yt-dlp success. Output length: 1094
+yt-dlp success. Output length: 1090
+yt-dlp success. Output length: 1098
+yt-dlp success. Output length: 1098
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28829
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29129
+Running yt-dlp with args: https://www.youtube.com/watch?v=Y23dN3JZrcE --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1091
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29108
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=z5_klHXYZS4 --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 28838
+yt-dlp success. Output length: 1089
+Running yt-dlp with args: https://www.youtube.com/watch?v=7EqdUVLeJBg --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1100
+Running yt-dlp with args: https://www.youtube.com/watch?v=Y23dN3JZrcE --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1091
+Running yt-dlp with args: ytsearch15:her --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 26915
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 600960
+Running yt-dlp with args: ytsearch25:Jake hit songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 1098
+yt-dlp success. Output length: 46834
+Running yt-dlp with args: https://www.youtube.com/watch?v=3FS2_ogVYZw --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=hSlb1ezRqfA --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1097
+yt-dlp success. Output length: 1098
+Running yt-dlp with args: https://www.youtube.com/watch?v=2_evn2rg-80 --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=KdSmBxpokEc --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1100
+yt-dlp success. Output length: 1096
+Running yt-dlp with args: https://www.youtube.com/watch?v=t52I9kkxmLs --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=QiYIW4uBLdY --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1090
+Running yt-dlp with args: https://www.youtube.com/watch?v=oiQcqZB_62Q --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1096
+yt-dlp success. Output length: 1094
+POST /api/history called for test-script-id
+Updated stats: Total Plays=1, Song Plays=1
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28991
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29040
+Running yt-dlp with args: ytsearch15:yary --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:yar --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:yarumilla --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 27848
+yt-dlp success. Output length: 28124
+yt-dlp success. Output length: 29240
+Running yt-dlp with args: https://www.youtube.com/watch?v=TkRXBEq58zs --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=TkRXBEq58zs --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 600519
+Running yt-dlp with args: ytsearch25:Telugu melody songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 1082
+yt-dlp success. Output length: 48345
+POST /api/history called for TkRXBEq58zs
+Updated stats: Total Plays=2, Song Plays=1
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29077
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29068
+POST /api/history called for 8PXUzdXxrl8
+Updated stats: Total Plays=3, Song Plays=1
+Running yt-dlp with args: https://www.youtube.com/watch?v=8PXUzdXxrl8 --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1095
+POST /api/history called for yQbuUKP_jiE
+Updated stats: Total Plays=4, Song Plays=1
+Running yt-dlp with args: https://www.youtube.com/watch?v=yQbuUKP_jiE --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1103
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29010
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28812
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28810
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29063
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29160
+yt-dlp success. Output length: 29038
+POST /api/history called for 8PXUzdXxrl8
+Updated stats: Total Plays=4, Song Plays=2
+Running yt-dlp with args: https://www.youtube.com/watch?v=8PXUzdXxrl8 --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 1113
+yt-dlp success. Output length: 28977
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29019
+Running yt-dlp with args: https://www.youtube.com/watch?v=TkRXBEq58zs --get-url -f bestaudio --no-warnings
+POST /api/history called for TkRXBEq58zs
+Updated stats: Total Plays=5, Song Plays=2
+yt-dlp success. Output length: 1088
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28740
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29077
+Running yt-dlp with args: https://www.youtube.com/watch?v=her --dump-json --no-playlist --no-warnings
+yt-dlp error: ERROR: [youtube:truncated_id] her: Incomplete YouTube ID her. URL https://www.youtube.com/watch?v=her looks truncated.
+
+Running yt-dlp with args: https://www.youtube.com/watch?v=her --dump-json --no-playlist --no-warnings
+yt-dlp error: ERROR: [youtube:truncated_id] her: Incomplete YouTube ID her. URL https://www.youtube.com/watch?v=her looks truncated.
+
+Running yt-dlp with args: https://www.youtube.com/watch?v=her --dump-json --no-playlist --no-warnings
+yt-dlp error: ERROR: [youtube:truncated_id] her: Incomplete YouTube ID her. URL https://www.youtube.com/watch?v=her looks truncated.
+
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28328
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29079
+yt-dlp success. Output length: 28992
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29038
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29026
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:y --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28781
+Running yt-dlp with args: ytsearch15:ya --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:yar --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:yaru, --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28343
+Running yt-dlp with args: ytsearch15:yaru --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:yarumill --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:yarumilla --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28218
+yt-dlp success. Output length: 27883
+yt-dlp success. Output length: 27683
+yt-dlp success. Output length: 27625
+yt-dlp success. Output length: 28061
+yt-dlp success. Output length: 28929
+Running yt-dlp with args: https://www.youtube.com/watch?v=TkRXBEq58zs --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=TkRXBEq58zs --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 601133
+Running yt-dlp with args: ytsearch25:best Telugu Adithya Varma songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 1109
+yt-dlp success. Output length: 49622
+POST /api/history called for TkRXBEq58zs
+Updated stats: Total Plays=6, Song Plays=3
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28992
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29038
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28995
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29286
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28995
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28995
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29141
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28995
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29110
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28376
+Running yt-dlp with args: ytsearch15:her --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 26827
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --dump-json --no-playlist --no-warnings
+yt-dlp success. Output length: 1110
+yt-dlp success. Output length: 600637
+Running yt-dlp with args: ytsearch25:Jake hit songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 46885
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28602
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28717
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28928
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29063
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28758
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28758
+Running yt-dlp with args: ytsearch15:her --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 26855
+Running yt-dlp with args: https://www.youtube.com/watch?v=y2ecafXmnIY --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=y2ecafXmnIY --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1107
+yt-dlp success. Output length: 607261
+Running yt-dlp with args: ytsearch25:Jake hit songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 46734
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29124
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29097
+Running yt-dlp with args: https://www.youtube.com/watch?v=3FS2_ogVYZw --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1090
+Running yt-dlp with args: https://www.youtube.com/watch?v=hSlb1ezRqfA --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1120
+Running yt-dlp with args: ytsearch15:sa --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:sailor  --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:sailor song --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:sailor songs --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:sailor son --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 27868
+Running yt-dlp with args: ytsearch15:sailor s --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 27852
+Running yt-dlp with args: ytsearch15:sailor  --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 27609
+yt-dlp success. Output length: 28413
+yt-dlp success. Output length: 26933
+yt-dlp success. Output length: 27381
+yt-dlp success. Output length: 27327
+Running yt-dlp with args: https://www.youtube.com/watch?v=1lrFsXkT_rM --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=1lrFsXkT_rM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1105
+yt-dlp success. Output length: 105353
+Running yt-dlp with args: ytsearch25:top Alternative songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 48688
+Running yt-dlp with args: https://www.youtube.com/watch?v=tIWe2s0ob-M --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1106
+Running yt-dlp with args: https://www.youtube.com/watch?v=Jz1S5i9WC5s --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1096
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28942
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28873
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28835
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28795
+Running yt-dlp with args: ytsearch15:mei --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:meiyaz --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:meiyazh --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:meiyazha --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:meiyazhag --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:meiyazhaga --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28156
+Running yt-dlp with args: ytsearch15:meiyazhagan --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28299
+yt-dlp success. Output length: 28904
+yt-dlp success. Output length: 28301
+yt-dlp success. Output length: 28974
+yt-dlp success. Output length: 28991
+yt-dlp success. Output length: 29003
+Running yt-dlp with args: https://www.youtube.com/watch?v=oYyYYdi5cm8 --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=oYyYYdi5cm8 --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 599029
+Running yt-dlp with args: ytsearch25:the cycle music playlist --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 1082
+yt-dlp success. Output length: 48277
+Running yt-dlp with args: https://www.youtube.com/watch?v=pQf1oxwFXYc --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=8gdE1nXzALE --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1091
+yt-dlp success. Output length: 1106
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28889
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28850
+Running yt-dlp with args: https://www.youtube.com/watch?v=1lrFsXkT_rM --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=hSlb1ezRqfA --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=y2ecafXmnIY --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1105
+yt-dlp success. Output length: 1110
+yt-dlp success. Output length: 1097
+Running yt-dlp with args: ytsearch15:mudhal nee --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28285
+Running yt-dlp with args: ytsearch15:mudhal nee --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28318
+Running yt-dlp with args: https://www.youtube.com/watch?v=ckwRhLE9_LY --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=ckwRhLE9_LY --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1100
+yt-dlp success. Output length: 101486
+Running yt-dlp with args: ytsearch25:Tamil melody songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 49081
+Running yt-dlp with args: ytsearch15:h --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:her --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 27832
+yt-dlp success. Output length: 27000
+Running yt-dlp with args: https://www.youtube.com/watch?v=ZxE0QzE2K9o --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=ZxE0QzE2K9o --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1114
+yt-dlp success. Output length: 620423
+Running yt-dlp with args: ytsearch25:Jake music playlist --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 47262
+Running yt-dlp with args: ytsearch15:on --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:one --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:one  --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:one more ro --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:one more round --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 27701
+yt-dlp success. Output length: 26781
+yt-dlp success. Output length: 27526
+yt-dlp success. Output length: 28615
+yt-dlp success. Output length: 28161
+Running yt-dlp with args: https://www.youtube.com/watch?v=LZ-GDLxUVIw --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=LZ-GDLxUVIw --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1097
+yt-dlp success. Output length: 600235
+Running yt-dlp with args: ytsearch25:melody songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 48787
+Running yt-dlp with args: https://www.youtube.com/watch?v=z5_klHXYZS4 --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1100
+Running yt-dlp with args: https://www.youtube.com/watch?v=7EqdUVLeJBg --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1096
+Running yt-dlp with args: https://www.youtube.com/watch?v=nYZBDoWOPqM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1100
+Running yt-dlp with args: https://www.youtube.com/watch?v=x7vsIXmzjcY --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1125
+Running yt-dlp with args: https://www.youtube.com/watch?v=x7vsIXmzjcY --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1132
+Running yt-dlp with args: https://www.youtube.com/watch?v=x7vsIXmzjcY --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1133
+Running yt-dlp with args: ytsearch15:sailor songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 27982
+Running yt-dlp with args: https://www.youtube.com/watch?v=AhPtMYvGtkY --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=AhPtMYvGtkY --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1112
+yt-dlp success. Output length: 96395
+Running yt-dlp with args: ytsearch25:music music playlist --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 49769
+Running yt-dlp with args: ytsearch15:mudhal nee --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28285
+Running yt-dlp with args: https://www.youtube.com/watch?v=ckwRhLE9_LY --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=ckwRhLE9_LY --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 101233
+Running yt-dlp with args: ytsearch25:Tamil Sony Music hit songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 1098
+yt-dlp success. Output length: 49571
+Running yt-dlp with args: ytsearch15:her --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 26827
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1091
+yt-dlp success. Output length: 600654
+Running yt-dlp with args: ytsearch25:best  Jake songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 48949
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --dump-json --no-playlist --no-warnings
+yt-dlp success. Output length: 600522
+Running yt-dlp with args: ytsearch25:melody songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 48887
+Running yt-dlp with args: https://www.youtube.com/watch?v=z5_klHXYZS4 --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=7EqdUVLeJBg --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=LbrJZgyqp5w --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1098
+yt-dlp success. Output length: 1094
+yt-dlp success. Output length: 1098
+Running yt-dlp with args: https://www.youtube.com/watch?v=LbrJZgyqp5w --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1098
+yt-dlp success. Output length: 1097
+yt-dlp success. Output length: 600371
+Running yt-dlp with args: ytsearch25:top Jake songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 46745
+Running yt-dlp with args: ytsearch15:her --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 26872
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1113
+yt-dlp success. Output length: 600811
+Running yt-dlp with args: ytsearch25:Jake hit songs --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 46712
+Running yt-dlp with args: https://www.youtube.com/watch?v=3FS2_ogVYZw --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1096
+Running yt-dlp with args: https://www.youtube.com/watch?v=3FS2_ogVYZw --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1098
+Running yt-dlp with args: ytsearch10:trending music --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:Her --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 27076
+yt-dlp success. Output length: 20104
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --dump-json --no-playlist --no-warnings
+yt-dlp success. Output length: 601614
+Running yt-dlp with args: ytsearch25:songs like JVKE by JVKE --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 47400
+Running yt-dlp with args: ytsearch10:songs like JVKE by JVKE --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch10:songs like JVKE by JVKE --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 18869
+yt-dlp success. Output length: 19022
+Running yt-dlp with args: ytsearch10:songs like JVKE by JVKE --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 19078
+Running yt-dlp with args: ytsearch10:songs like JVKE by JVKE --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 18878
+Running yt-dlp with args: ytsearch10:songs like JVKE by JVKE --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=f5-IY_Ja1RM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 18748
+yt-dlp success. Output length: 1143
+yt-dlp success. Output length: 1129
+Running yt-dlp with args: ytsearch15:Sa --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:Sailor --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 27738
+yt-dlp success. Output length: 27392
+Running yt-dlp with args: https://www.youtube.com/watch?v=KZGWfHdfWQs --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=KZGWfHdfWQs --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1136
+yt-dlp success. Output length: 1144
+Running yt-dlp with args: ytsearch10:songs like Gigi Perez by 7clouds Rock --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:Sailorl --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 19665
+yt-dlp success. Output length: 27464
+Running yt-dlp with args: ytsearch10:songs like Gigi Perez by 7clouds Rock --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch10:songs like Gigi Perez by 7clouds Rock --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch10:songs like Gigi Perez by 7clouds Rock --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 19341
+yt-dlp success. Output length: 19651
+yt-dlp success. Output length: 19556
+Running yt-dlp with args: ytsearch10:songs like JVKE by JVKE --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 18869
+Running yt-dlp with args: ytsearch10:songs like JVKE by JVKE --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 18855
+Running yt-dlp with args: ytsearch15:Her --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:Her --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 27003
+yt-dlp success. Output length: 27016
+Running yt-dlp with args: https://www.youtube.com/watch?v=mpxEUex3dek --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=mpxEUex3dek --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1144
+yt-dlp success. Output length: 1130
+Running yt-dlp with args: ytsearch10:songs like JVKE by JVKE --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:G --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 18878
+Running yt-dlp with args: ytsearch15:Her  --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 27121
+yt-dlp success. Output length: 27373
+Running yt-dlp with args: https://www.youtube.com/watch?v=SA7AIQw-7Ms --dump-json --no-playlist --no-warnings
+yt-dlp success. Output length: 100509
+Running yt-dlp with args: ytsearch25:songs like G by G-Eazy --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 47098
+Running yt-dlp with args: ytsearch10:songs like JVKE by JVKE --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 19042
+Running yt-dlp with args: ytsearch15:Vh --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:V --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch10:songs like JVKE by JVKE --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28474
+yt-dlp success. Output length: 29348
+yt-dlp success. Output length: 19008
+Running yt-dlp with args: https://www.youtube.com/watch?v=7uV69e5NjMs --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=7uV69e5NjMs --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1086
+yt-dlp success. Output length: 1087
+Running yt-dlp with args: ytsearch10:songs like BTS V Jump part😍💜✨... #bts #shortvideo #btsarmy #btsshorts@two_queen_ #youtubeshorts#btsv#taehyung by Twoqueenes👑💜 --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 0
+Running yt-dlp with args: ytsearch15:Lovely --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 27999
+Running yt-dlp with args: https://www.youtube.com/watch?v=8VLXHyHRXjc --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=8VLXHyHRXjc --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1077
+yt-dlp success. Output length: 1091
+Running yt-dlp with args: ytsearch10:songs like Billie Eilish by 7clouds --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 19304
+Running yt-dlp with args: ytsearch10:songs like Billie Eilish by 7clouds --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:Lovely --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 19272
+yt-dlp success. Output length: 27603
+Running yt-dlp with args: https://www.youtube.com/watch?v=8VLXHyHRXjc --dump-json --no-playlist --no-warnings
+yt-dlp success. Output length: 95496
+Running yt-dlp with args: ytsearch25:songs like Billie Eilish by 7clouds --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 48993
+Running yt-dlp with args: https://www.youtube.com/watch?v=HQitbbtPZz8 --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=HQitbbtPZz8 --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=KyJEF0AZ2NU --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=KyJEF0AZ2NU --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1086
+yt-dlp success. Output length: 1092
+Running yt-dlp with args: https://www.youtube.com/watch?v=8ObJEXpmZ10 --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=8ObJEXpmZ10 --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=KyJEF0AZ2NU --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=KyJEF0AZ2NU --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1102
+yt-dlp success. Output length: 1106
+yt-dlp success. Output length: 1104
+yt-dlp success. Output length: 1103
+yt-dlp success. Output length: 1095
+yt-dlp success. Output length: 1105
+Running yt-dlp with args: ytsearch10:songs like Billie Eilish by 7clouds --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 19300
+Running yt-dlp with args: ytsearch10:songs like Billie Eilish by 7clouds --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 19272
+Running yt-dlp with args: ytsearch15:Lovely --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28164
+Running yt-dlp with args: https://www.youtube.com/watch?v=8VLXHyHRXjc --dump-json --no-playlist --no-warnings
+yt-dlp success. Output length: 96238
+Running yt-dlp with args: ytsearch25:songs like Billie Eilish by 7clouds --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 48993
+Running yt-dlp with args: ytsearch10:songs like Billie Eilish by 7clouds --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 19292
+Running yt-dlp with args: ytsearch10:songs like Billie Eilish by 7clouds --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 19272
+Running yt-dlp with args: ytsearch15:Lovely --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 27305
+Running yt-dlp with args: https://www.youtube.com/watch?v=8VLXHyHRXjc --dump-json --no-playlist --no-warnings
+yt-dlp success. Output length: 96159
+Running yt-dlp with args: ytsearch25:songs like Billie Eilish by 7clouds --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 48910
+Running yt-dlp with args: ytsearch10:songs like Billie Eilish by 7clouds --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 19282
+Running yt-dlp with args: ytsearch10:songs like Billie Eilish by 7clouds --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 19279
+Running yt-dlp with args: ytsearch15:do  --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:do i  --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:do i w --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: ytsearch15:do i wanna know --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28004
+yt-dlp success. Output length: 26741
+yt-dlp success. Output length: 26776
+yt-dlp success. Output length: 27932
+Running yt-dlp with args: https://www.youtube.com/watch?v=bpOSxM0rNPM --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=bpOSxM0rNPM --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 599757
+Running yt-dlp with args: ytsearch25:songs like Arctic Monkeys by Official Arctic Monkeys --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 1085
+yt-dlp success. Output length: 50885
+Running yt-dlp with args: https://www.youtube.com/watch?v=fukGbiPuBjU --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1121
+Running yt-dlp with args: https://www.youtube.com/watch?v=nyuo9-OjNNg --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1105
+Running yt-dlp with args: ytsearch10:songs like Billie Eilish by 7clouds --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 19279
+Running yt-dlp with args: https://www.youtube.com/watch?v=qU9mHegkTc4 --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1144
+Running yt-dlp with args: ytsearch15:kadhaipoma --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29087
+Running yt-dlp with args: https://www.youtube.com/watch?v=DScFlfN9vDk --dump-json --no-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=DScFlfN9vDk --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1129
+yt-dlp success. Output length: 101854
+Running yt-dlp with args: ytsearch25:songs like Oh My Kadavule by SonyMusicSouthVEVO --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 52103
+Running yt-dlp with args: ytsearch10:songs like Billie Eilish by 7clouds --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 19250
+Running yt-dlp with args: https://www.youtube.com/watch?v=W6XAQBNmICI --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1161
+Running yt-dlp with args: https://www.youtube.com/watch?v=rOw8fKZ2rps --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: ytsearch10:songs like Billie Eilish by 7clouds --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 1124
+yt-dlp success. Output length: 19279

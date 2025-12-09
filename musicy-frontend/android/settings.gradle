@@ -1,0 +1,24 @@
+// BYPASS SSL VALIDATION (Fix for PKIX path building failed)
+import javax.net.ssl.SSLContext
+import javax.net.ssl.TrustManager
+import javax.net.ssl.X509TrustManager
+
+try {
+    def trustAllCerts = [
+        checkClientTrusted: { chain, authType -> },
+        checkServerTrusted: { chain, authType -> },
+        getAcceptedIssuers: { null }
+    ] as X509TrustManager
+
+    def sslContext = SSLContext.getInstance("SSL")
+    sslContext.init(null, [trustAllCerts] as TrustManager[], new java.security.SecureRandom())
+    javax.net.ssl.HttpsURLConnection.setDefaultSSLSocketFactory(sslContext.getSocketFactory())
+} catch (Exception e) {
+    println "Failed to bypass SSL: " + e.message
+}
+
+include ':app'
+include ':capacitor-cordova-android-plugins'
+project(':capacitor-cordova-android-plugins').projectDir = new File('./capacitor-cordova-android-plugins/')
+
+apply from: 'capacitor.settings.gradle'
