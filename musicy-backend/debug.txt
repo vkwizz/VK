@@ -976,3 +976,15 @@ Running yt-dlp with args: https://www.youtube.com/watch?v=rOw8fKZ2rps --get-url 
 Running yt-dlp with args: ytsearch10:songs like Billie Eilish by 7clouds --dump-json --flat-playlist --no-warnings
 yt-dlp success. Output length: 1124
 yt-dlp success. Output length: 19279
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28848
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 28848
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+Running yt-dlp with args: https://www.youtube.com/watch?v=rOw8fKZ2rps --get-url -f bestaudio --no-warnings
+Running yt-dlp with args: ytsearch15:trending music --dump-json --flat-playlist --no-warnings
+yt-dlp success. Output length: 29230
+yt-dlp success. Output length: 1090
+yt-dlp success. Output length: 29220
+Running yt-dlp with args: https://www.youtube.com/watch?v=WBF3lcqpOJY --get-url -f bestaudio --no-warnings
+yt-dlp success. Output length: 1116
