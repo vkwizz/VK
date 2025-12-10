@@ -45,6 +45,7 @@ const runYtDlp = (args) => {
     execFile(ytDlpPath, finalArgs, { maxBuffer: 10 * 1024 * 1024 }, (error, stdout, stderr) => {
       if (error) {
         logToFile('yt-dlp error: ' + stderr);
+        console.error('yt-dlp error: ' + stderr); // Log to console/buffer!
         reject(error);
         return;
       }
@@ -56,11 +57,15 @@ const runYtDlp = (args) => {
 
 // In-memory log buffer for debugging
 const logBuffer = [];
-const LOG_LIMIT = 100;
+const LOG_LIMIT = 500;
 
 const addToLog = (type, args) => {
   try {
     const msg = args.map(a => (a && typeof a === 'object') ? JSON.stringify(a) : String(a)).join(' ');
+
+    // Filter out spammy heartbeat logs
+    if (msg.includes('heartbeat') || msg.includes('getUser called')) return;
+
     const line = `[${new Date().toISOString()}] [${type}] ${msg}`;
     logBuffer.push(line);
     if (logBuffer.length > LOG_LIMIT) logBuffer.shift();
