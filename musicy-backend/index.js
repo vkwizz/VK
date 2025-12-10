@@ -24,7 +24,23 @@ const logToFile = (msg) => {
 
 // Cross-platform binary path
 const binName = process.platform === 'win32' ? 'yt-dlp.exe' : 'yt-dlp';
-const ytDlpPath = path.join(__dirname, 'node_modules', 'yt-dlp-exec', 'bin', binName);
+let ytDlpPath = path.join(__dirname, binName); // Check root first
+
+// If root binary doesn't exist, try node_modules
+if (!fs.existsSync(ytDlpPath)) {
+  console.log("Local binary not found, checking node_modules...");
+  ytDlpPath = path.join(__dirname, 'node_modules', 'yt-dlp-exec', 'bin', binName);
+}
+
+console.log(`Using yt-dlp path: ${ytDlpPath}`);
+console.log(`File exists: ${fs.existsSync(ytDlpPath)}`);
+
+// Debug: List files in current dir to verify download
+try {
+  console.log("Root dir contents:", fs.readdirSync(__dirname));
+} catch (e) {
+  console.error("Failed to list dir:", e);
+}
 
 const runYtDlp = (args) => {
   return new Promise((resolve, reject) => {
@@ -128,7 +144,7 @@ app.get('/api/search', async (req, res) => {
   } catch (err) {
     console.error('CRITICAL: yt-dlp search failed:', err);
     if (err.stderr) console.error('yt-dlp stderr:', err.stderr);
-    
+
     // Fallback to mock data on error so UI doesn't break
     const mockItems = Array.from({ length: maxResults }).map((_, i) => ({
       videoId: `mock-${i}`,
