@@ -773,7 +773,10 @@ app.get('/stream/:videoId', async (req, res) => {
     }
 
     // 2. Proxy the audio stream using axios
-    const headers = {};
+    const headers = {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'Referer': 'https://www.youtube.com/'
+    };
     if (req.headers.range) {
       headers['Range'] = req.headers.range;
     }
@@ -823,12 +826,14 @@ app.get('/stream/:videoId', async (req, res) => {
 
   } catch (error) {
     console.error('Error streaming audio:', error.message);
+    let errorMsg = error.message;
     if (error.response) {
       console.error('Axios Error Status:', error.response.status);
+      errorMsg = `Upstream Error ${error.response.status}`;
     }
     // Suppress verbose error on client disconnect/cancel
     if (!res.headersSent) {
-      res.status(500).send('Error streaming audio');
+      res.status(500).send(`Stream Failed: ${errorMsg}`);
     }
   }
 });
