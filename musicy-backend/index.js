@@ -792,13 +792,34 @@ app.get('/stream/:videoId', async (req, res) => {
       headers['Range'] = req.headers.range;
     }
 
-    const response = await axios({
+    const axiosConfig = {
       method: 'get',
       url: audioUrl,
       headers: headers,
       responseType: 'stream',
       validateStatus: (status) => status >= 200 && status < 300 // Accept 206
-    });
+    };
+
+    // If using proxy, axios needs to use it too to avoid IP mismatch with signed URL
+    if (process.env.YT_PROXY) {
+      try {
+        const proxyUrl = new URL(process.env.YT_PROXY);
+        axiosConfig.proxy = {
+          protocol: proxyUrl.protocol.replace(':', ''),
+          host: proxyUrl.hostname,
+          port: proxyUrl.port,
+          auth: (proxyUrl.username && proxyUrl.password) ? {
+            username: proxyUrl.username,
+            password: proxyUrl.password
+          } : undefined
+        };
+        console.log('Using Proxy for Axios Stream');
+      } catch (e) {
+        console.error('Failed to parse YT_PROXY for axios:', e);
+      }
+    }
+
+    const response = await axios(axiosConfig);
 
     // Forward status code (200 or 206)
     res.status(response.status);
@@ -815,7 +836,10 @@ app.get('/stream/:videoId', async (req, res) => {
     response.data.pipe(res);
 
   } catch (error) {
-    // console.error('Error streaming audio:', error.message); 
+    console.error('Error streaming audio:', error.message);
+    if (error.response) {
+      console.error('Axios Error Status:', error.response.status);
+    }
     // Suppress verbose error on client disconnect/cancel
     if (!res.headersSent) {
       res.status(500).send('Error streaming audio');
