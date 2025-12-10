@@ -126,13 +126,15 @@ app.get('/api/search', async (req, res) => {
     res.json({ items });
 
   } catch (err) {
-    console.error('yt-dlp search failed:', err);
+    console.error('CRITICAL: yt-dlp search failed:', err);
+    if (err.stderr) console.error('yt-dlp stderr:', err.stderr);
+    
     // Fallback to mock data on error so UI doesn't break
     const mockItems = Array.from({ length: maxResults }).map((_, i) => ({
       videoId: `mock-${i}`,
-      title: `Song Title ${i} - ${query}`,
-      channelTitle: `Artist ${i}`,
-      thumbnail: `https://picsum.photos/seed/${query}${i}/300/300`,
+      title: `[Server Blocked] YouTube Rate Limit - ${i}`,
+      channelTitle: `Render IP Blocked`,
+      thumbnail: `https://via.placeholder.com/300/FF0000/FFFFFF?text=Blocked`,
       publishedAt: new Date().toISOString(),
     }));
     res.json({ items: mockItems });
