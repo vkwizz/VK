@@ -38,6 +38,10 @@ const runYtDlp = (args) => {
       finalArgs.push('--proxy', process.env.YT_PROXY);
     }
 
+    // Force Android Client to bypass "Sign in to confirm" (Bot Block)
+    // This is critical for Datacenter IPs (Render)
+    finalArgs.push('--extractor-args', 'youtube:player_client=android');
+
     execFile(ytDlpPath, finalArgs, { maxBuffer: 10 * 1024 * 1024 }, (error, stdout, stderr) => {
       if (error) {
         logToFile('yt-dlp error: ' + stderr);
@@ -790,9 +794,7 @@ app.get('/stream/:videoId', async (req, res) => {
         videoUrl,
         '--get-url',
         '-f', 'bestaudio',
-        '--no-warnings',
-        '--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-        '--referer', 'https://www.youtube.com/'
+        '--no-warnings'
       ]);
       audioUrl = output.trim();
 
