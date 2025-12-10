@@ -95,6 +95,27 @@ app.get('/api/debug/logs', (req, res) => {
   res.type('text/plain').send(logBuffer.join('\n'));
 });
 
+// Self-Diagnostic Endpoint (Triggered by me)
+app.get('/api/debug/test-download', async (req, res) => {
+  const videoId = 'dQw4w9WgXcQ'; // Rick Roll (Reliable Test)
+  const videoUrl = `https://www.youtube.com/watch?v=${videoId}`;
+  console.log(`[TEST] Starting Test Download for ${videoId}...`);
+  try {
+    const output = await runYtDlp([
+      videoUrl,
+      '--get-url',
+      '-f', 'bestaudio',
+      '--no-warnings'
+    ]);
+    const audioUrl = output.trim();
+    console.log(`[TEST] Success! URL length: ${audioUrl.length}`);
+    res.json({ success: true, urlLength: audioUrl.length, preview: audioUrl.substring(0, 50) + '...' });
+  } catch (e) {
+    console.error(`[TEST] Failed: ${e.message}`);
+    res.status(500).json({ success: false, error: e.message });
+  }
+});
+
 app.use((req, res, next) => {
   console.log(`${req.method} ${req.url}`);
   next();
