@@ -112,7 +112,7 @@ const Player = () => {
   if (!currentTrack) return null;
 
   // Use backend stream URL
-  const trackUrl = `http://localhost:4000/stream/${currentTrack.videoId}`;
+  const trackUrl = `https://vk-vkww.onrender.com/stream/${currentTrack.videoId}`;
   const isLiked = likedSongs.has(currentTrack.videoId);
 
   return (
