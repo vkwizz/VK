@@ -50,9 +50,41 @@ const runYtDlp = (args) => {
   });
 };
 
+// In-memory log buffer for debugging
+const logBuffer = [];
+const LOG_LIMIT = 100;
+
+const addToLog = (type, args) => {
+  try {
+    const msg = args.map(a => (a && typeof a === 'object') ? JSON.stringify(a) : String(a)).join(' ');
+    const line = `[${new Date().toISOString()}] [${type}] ${msg}`;
+    logBuffer.push(line);
+    if (logBuffer.length > LOG_LIMIT) logBuffer.shift();
+  } catch (e) {
+    // ignore logging errors
+  }
+};
+
+const originalLog = console.log;
+const originalError = console.error;
+
+console.log = (...args) => {
+  addToLog('INFO', args);
+  originalLog.apply(console, args);
+};
+
+console.error = (...args) => {
+  addToLog('ERROR', args);
+  originalError.apply(console, args);
+};
+
 const app = express();
 app.use(cors());
 app.use(express.json());
+
+app.get('/api/debug/logs', (req, res) => {
+  res.type('text/plain').send(logBuffer.join('\n'));
+});
 
 app.use((req, res, next) => {
   console.log(`${req.method} ${req.url}`);
