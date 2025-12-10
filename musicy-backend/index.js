@@ -24,23 +24,9 @@ const logToFile = (msg) => {
 
 // Cross-platform binary path
 const binName = process.platform === 'win32' ? 'yt-dlp.exe' : 'yt-dlp';
-let ytDlpPath = path.join(__dirname, binName); // Check root first
-
-// If root binary doesn't exist, try node_modules
-if (!fs.existsSync(ytDlpPath)) {
-  console.log("Local binary not found, checking node_modules...");
-  ytDlpPath = path.join(__dirname, 'node_modules', 'yt-dlp-exec', 'bin', binName);
-}
+const ytDlpPath = path.join(__dirname, 'node_modules', 'yt-dlp-exec', 'bin', binName);
 
 console.log(`Using yt-dlp path: ${ytDlpPath}`);
-console.log(`File exists: ${fs.existsSync(ytDlpPath)}`);
-
-// Debug: List files in current dir to verify download
-try {
-  console.log("Root dir contents:", fs.readdirSync(__dirname));
-} catch (e) {
-  console.error("Failed to list dir:", e);
-}
 
 const runYtDlp = (args) => {
   return new Promise((resolve, reject) => {
