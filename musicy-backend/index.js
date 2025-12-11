@@ -46,6 +46,9 @@ const runYtDlp = (args) => {
     const renderCookies = '/etc/secrets/cookies.txt';
     const tempCookies = path.join(__dirname, 'temp_cookies.txt');
 
+    /*
+    // COOKIES DISABLED: Cookies are causing "Video Unavailable" due to Geo-IP mismatch (User Cookies vs Render IP).
+    // relying on TV Client to bypass auth.
     if (fs.existsSync(renderCookies)) {
       console.log('Found Render secret cookies.txt, copying to writable temp file...');
       try {
@@ -62,6 +65,7 @@ const runYtDlp = (args) => {
       console.log('Using local cookies.txt');
       finalArgs.push('--cookies', localCookies);
     }
+    */
 
     // Switch to TV Client (The "Nuclear Option" for bypassing blocking)
     finalArgs.push('--extractor-args', 'youtube:player_client=tv');
