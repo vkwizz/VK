@@ -13,8 +13,8 @@ const jwt = require('jsonwebtoken');
 
 const JWT_SECRET = process.env.JWT_SECRET || 'secret_key_change_me';
 
-// Consistent User Agent for both yt-dlp and axios to avoid 403s
-const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36';
+// Consistent User Agent (iOS to match player_client)
+const USER_AGENT = 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1';
 
 
 const logToFile = (msg) => {
@@ -40,9 +40,9 @@ const runYtDlp = (args) => {
       finalArgs.push('--proxy', process.env.YT_PROXY);
     }
 
-    // Force Android Client to bypass "Sign in to confirm" (Bot Block)
+    // Force iOS Client to bypass "Sign in to confirm" (Bot Block)
     // This is critical for Datacenter IPs (Render)
-    finalArgs.push('--extractor-args', 'youtube:player_client=android');
+    finalArgs.push('--extractor-args', 'youtube:player_client=ios');
 
     // Use consistent User-Agent
     finalArgs.push('--user-agent', USER_AGENT);
