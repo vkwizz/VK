@@ -40,12 +40,11 @@ const runYtDlp = (args) => {
       finalArgs.push('--proxy', process.env.YT_PROXY);
     }
 
-    // Force iOS Client to bypass "Sign in to confirm" (Bot Block)
-    // This is critical for Datacenter IPs (Render)
-    finalArgs.push('--extractor-args', 'youtube:player_client=ios');
+    // Force TV Client (often bypasses "Sign in to confirm" on datacenter IPs)
+    finalArgs.push('--extractor-args', 'youtube:player_client=tv');
 
-    // Use consistent User-Agent
-    finalArgs.push('--user-agent', USER_AGENT);
+    // Remove manual UA for yt-dlp to let it use the correct TV one
+    // finalArgs.push('--user-agent', USER_AGENT);
 
     logToFile('Running yt-dlp with args: ' + finalArgs.join(' '));
 
