@@ -34,27 +34,6 @@ console.log(`Using yt-dlp path: ${ytDlpPath}`);
 
 const runYtDlp = (args) => {
   return new Promise((resolve, reject) => {
-    // Add proxy if configured in env
-    const finalArgs = [...args];
-    if (process.env.YT_PROXY) {
-      finalArgs.push('--proxy', process.env.YT_PROXY);
-    }
-
-    // Check for cookies.txt (Local or Render Secret)
-    const localCookies = path.join(__dirname, 'cookies.txt');
-    const renderCookies = '/etc/secrets/cookies.txt';
-
-    if (fs.existsSync(localCookies)) {
-      console.log('Using local cookies.txt');
-      finalArgs.push('--cookies', localCookies);
-    } else if (fs.existsSync(renderCookies)) {
-      console.log('Using Render secret cookies.txt');
-      finalArgs.push('--cookies', renderCookies);
-    }
-
-    // Use consistent User-Agent (Standard Chrome)
-    finalArgs.push('--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36');
-
     logToFile('Running yt-dlp with args: ' + finalArgs.join(' '));
 
     execFile(ytDlpPath, finalArgs, { maxBuffer: 10 * 1024 * 1024 }, (error, stdout, stderr) => {
