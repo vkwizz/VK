@@ -13,8 +13,8 @@ const jwt = require('jsonwebtoken');
 
 const JWT_SECRET = process.env.JWT_SECRET || 'secret_key_change_me';
 
-// Consistent User Agent (iOS to match player_client)
-const USER_AGENT = 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1';
+// Consistent User Agent (Smart TV to match player_client=tv)
+const USER_AGENT = 'Mozilla/5.0 (SMART-TV; Linux; Tizen 5.0) AppleWebKit/537.3 (KHTML, like Gecko) SamsungBrowser/2.2 Chrome/63.0.3239.84 TV Safari/537.3';
 
 
 const logToFile = (msg) => {
@@ -43,8 +43,8 @@ const runYtDlp = (args) => {
     // Force TV Client (often bypasses "Sign in to confirm" on datacenter IPs)
     finalArgs.push('--extractor-args', 'youtube:player_client=tv');
 
-    // Remove manual UA for yt-dlp to let it use the correct TV one
-    // finalArgs.push('--user-agent', USER_AGENT);
+    // Use consistent User-Agent
+    finalArgs.push('--user-agent', USER_AGENT);
 
     logToFile('Running yt-dlp with args: ' + finalArgs.join(' '));
 
