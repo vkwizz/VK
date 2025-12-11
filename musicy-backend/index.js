@@ -66,6 +66,12 @@ const runYtDlp = (args) => {
     // Use consistent User-Agent (Modern Chrome)
     finalArgs.push('--user-agent', USER_AGENT);
 
+    // Force IPv4 (YouTube blocks Datacenter IPv6)
+    finalArgs.push('--force-ipv4');
+
+    // Clear cache to prevent bad token persistence
+    finalArgs.push('--rm-cache-dir');
+
     logToFile('Running yt-dlp with args: ' + finalArgs.join(' '));
 
     execFile(ytDlpPath, finalArgs, { maxBuffer: 10 * 1024 * 1024 }, (error, stdout, stderr) => {
