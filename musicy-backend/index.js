@@ -67,8 +67,8 @@ const runYtDlp = (args) => {
     }
     */
 
-    // Switch to TV Client (The "Nuclear Option" for bypassing blocking)
-    finalArgs.push('--extractor-args', 'youtube:player_client=tv');
+    // Switch to Android Client (Standard mobile emulation, often bypasses "Sign In" better than TV)
+    finalArgs.push('--extractor-args', 'youtube:player_client=android');
 
     // Force IPv4 (YouTube blocks Datacenter IPv6)
     finalArgs.push('--force-ipv4');
