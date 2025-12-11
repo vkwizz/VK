@@ -63,8 +63,8 @@ const runYtDlp = (args) => {
       finalArgs.push('--cookies', localCookies);
     }
 
-    // Switch to iOS Client (Often works better with Desktop cookies than Android)
-    finalArgs.push('--extractor-args', 'youtube:player_client=ios');
+    // Switch to TV Client (The "Nuclear Option" for bypassing blocking)
+    finalArgs.push('--extractor-args', 'youtube:player_client=tv');
 
     // Force IPv4 (YouTube blocks Datacenter IPv6)
     finalArgs.push('--force-ipv4');
