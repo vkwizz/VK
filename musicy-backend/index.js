@@ -13,8 +13,8 @@ const jwt = require('jsonwebtoken');
 
 const JWT_SECRET = process.env.JWT_SECRET || 'secret_key_change_me';
 
-// Consistent User Agent (Smart TV to match player_client=tv)
-const USER_AGENT = 'Mozilla/5.0 (SMART-TV; Linux; Tizen 5.0) AppleWebKit/537.3 (KHTML, like Gecko) SamsungBrowser/2.2 Chrome/63.0.3239.84 TV Safari/537.3';
+// Consistent User Agent (Standard Chrome)
+const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36';
 
 
 const logToFile = (msg) => {
@@ -40,11 +40,15 @@ const runYtDlp = (args) => {
       finalArgs.push('--proxy', process.env.YT_PROXY);
     }
 
-    // Force TV Client (often bypasses "Sign in to confirm" on datacenter IPs)
-    finalArgs.push('--extractor-args', 'youtube:player_client=tv');
+    // Check for cookies.txt for authentication (Best fix for "Sign in to confirm")
+    const cookiesPath = path.join(__dirname, 'cookies.txt');
+    if (fs.existsSync(cookiesPath)) {
+      console.log('Using cookies.txt for authentication');
+      finalArgs.push('--cookies', cookiesPath);
+    }
 
-    // Use consistent User-Agent
-    finalArgs.push('--user-agent', USER_AGENT);
+    // Use consistent User-Agent (Standard Chrome)
+    finalArgs.push('--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36');
 
     logToFile('Running yt-dlp with args: ' + finalArgs.join(' '));
 
