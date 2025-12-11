@@ -40,11 +40,16 @@ const runYtDlp = (args) => {
       finalArgs.push('--proxy', process.env.YT_PROXY);
     }
 
-    // Check for cookies.txt for authentication (Best fix for "Sign in to confirm")
-    const cookiesPath = path.join(__dirname, 'cookies.txt');
-    if (fs.existsSync(cookiesPath)) {
-      console.log('Using cookies.txt for authentication');
-      finalArgs.push('--cookies', cookiesPath);
+    // Check for cookies.txt (Local or Render Secret)
+    const localCookies = path.join(__dirname, 'cookies.txt');
+    const renderCookies = '/etc/secrets/cookies.txt';
+
+    if (fs.existsSync(localCookies)) {
+      console.log('Using local cookies.txt');
+      finalArgs.push('--cookies', localCookies);
+    } else if (fs.existsSync(renderCookies)) {
+      console.log('Using Render secret cookies.txt');
+      finalArgs.push('--cookies', renderCookies);
     }
 
     // Use consistent User-Agent (Standard Chrome)
