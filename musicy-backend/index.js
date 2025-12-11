@@ -13,8 +13,8 @@ const jwt = require('jsonwebtoken');
 
 const JWT_SECRET = process.env.JWT_SECRET || 'secret_key_change_me';
 
-// Consistent User Agent (Standard Chrome)
-const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36';
+// Consistent User Agent (Modern Chrome 120 to avoid bot detection)
+const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 
 
 const logToFile = (msg) => {
@@ -63,8 +63,8 @@ const runYtDlp = (args) => {
       finalArgs.push('--cookies', localCookies);
     }
 
-    // Use consistent User-Agent (Standard Chrome)
-    finalArgs.push('--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36');
+    // Use consistent User-Agent (Modern Chrome)
+    finalArgs.push('--user-agent', USER_AGENT);
 
     logToFile('Running yt-dlp with args: ' + finalArgs.join(' '));
 
