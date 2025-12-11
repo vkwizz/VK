@@ -10,7 +10,11 @@ const { User, Playlist } = require('./models');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
+
 const JWT_SECRET = process.env.JWT_SECRET || 'secret_key_change_me';
+
+// Consistent User Agent for both yt-dlp and axios to avoid 403s
+const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36';
 
 
 const logToFile = (msg) => {
@@ -30,8 +34,6 @@ console.log(`Using yt-dlp path: ${ytDlpPath}`);
 
 const runYtDlp = (args) => {
   return new Promise((resolve, reject) => {
-    logToFile('Running yt-dlp with args: ' + args.join(' '));
-
     // Add proxy if configured in env
     const finalArgs = [...args];
     if (process.env.YT_PROXY) {
@@ -41,6 +43,11 @@ const runYtDlp = (args) => {
     // Force Android Client to bypass "Sign in to confirm" (Bot Block)
     // This is critical for Datacenter IPs (Render)
     finalArgs.push('--extractor-args', 'youtube:player_client=android');
+
+    // Use consistent User-Agent
+    finalArgs.push('--user-agent', USER_AGENT);
+
+    logToFile('Running yt-dlp with args: ' + finalArgs.join(' '));
 
     execFile(ytDlpPath, finalArgs, { maxBuffer: 10 * 1024 * 1024 }, (error, stdout, stderr) => {
       if (error) {
@@ -816,16 +823,26 @@ app.get('/stream/:videoId', async (req, res) => {
     } else {
       console.log(`Cache miss for ${videoId}, fetching new URL...`);
       // 1. Get the direct audio URL using yt-dlp
-      const output = await runYtDlp([
-        videoUrl,
-        '--get-url',
-        '-f', 'bestaudio',
-        '--no-warnings'
-      ]);
-      audioUrl = output.trim();
+      try {
+        const output = await runYtDlp([
+          videoUrl,
+          '--get-url',
+          '-f', 'bestaudio',
+          '--no-warnings'
+        ]);
+        audioUrl = output.trim();
 
-      if (audioUrl) {
-        urlCache.set(videoId, { url: audioUrl, expiry: Date.now() + CACHE_TTL });
+        if (audioUrl) {
+          // Verify URL validity
+          if (audioUrl.includes('googlevideo.com')) {
+            urlCache.set(videoId, { url: audioUrl, expiry: Date.now() + CACHE_TTL });
+          } else {
+            console.warn("Got suspicious URL from yt-dlp:", audioUrl);
+          }
+        }
+      } catch (dlpError) {
+        console.error("yt-dlp failed to get URL:", dlpError);
+        throw new Error(`yt-dlp failed: ${dlpError.message}`);
       }
     }
 
@@ -836,12 +853,10 @@ app.get('/stream/:videoId', async (req, res) => {
 
     // 2. Proxy the audio stream using axios
     const headers = {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-      'Referer': 'https://www.youtube.com/'
+      'User-Agent': USER_AGENT, // Must match yt-dlp's UA
+      'Referer': 'https://www.youtube.com/',
+      'Range': req.headers.range || 'bytes=0-'
     };
-    if (req.headers.range) {
-      headers['Range'] = req.headers.range;
-    }
 
     const axiosConfig = {
       method: 'get',
@@ -870,6 +885,7 @@ app.get('/stream/:videoId', async (req, res) => {
       }
     }
 
+    console.log(`Connecting to upstream audio: ${audioUrl.substring(0, 50)}...`);
     const response = await axios(axiosConfig);
 
     // Forward status code (200 or 206)
@@ -886,11 +902,16 @@ app.get('/stream/:videoId', async (req, res) => {
     // Pipe the stream
     response.data.pipe(res);
 
+    response.data.on('error', (streamErr) => {
+      console.error('Upstream stream error:', streamErr);
+    });
+
   } catch (error) {
     console.error('Error streaming audio:', error.message);
     let errorMsg = error.message;
     if (error.response) {
       console.error('Axios Error Status:', error.response.status);
+      console.error('Axios Error Data (if any):', error.response.data);
       errorMsg = `Upstream Error ${error.response.status}`;
     }
     // Suppress verbose error on client disconnect/cancel
