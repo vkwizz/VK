@@ -44,10 +44,20 @@ const runYtDlp = (args) => {
     // Check for cookies.txt (Prioritize Render Secret)
     const localCookies = path.join(__dirname, 'cookies.txt');
     const renderCookies = '/etc/secrets/cookies.txt';
+    const tempCookies = path.join(__dirname, 'temp_cookies.txt');
 
     if (fs.existsSync(renderCookies)) {
-      console.log('Using Render secret cookies.txt');
-      finalArgs.push('--cookies', renderCookies);
+      console.log('Found Render secret cookies.txt, copying to writable temp file...');
+      try {
+        // yt-dlp needs a writable file to update cookies, otherwise it crashes on read-only file systems
+        fs.copyFileSync(renderCookies, tempCookies);
+        console.log('Using writable temp_cookies.txt');
+        finalArgs.push('--cookies', tempCookies);
+      } catch (err) {
+        console.error('Failed to copy cookies file:', err);
+        // Fallback to read-only path if copy fails
+        finalArgs.push('--cookies', renderCookies);
+      }
     } else if (fs.existsSync(localCookies)) {
       console.log('Using local cookies.txt');
       finalArgs.push('--cookies', localCookies);
