@@ -63,8 +63,8 @@ const runYtDlp = (args) => {
       finalArgs.push('--cookies', localCookies);
     }
 
-    // Use consistent User-Agent (Modern Chrome)
-    finalArgs.push('--user-agent', USER_AGENT);
+    // Switch to Android Client to bypass Web Client blocks (Fixes "Requested format not available")
+    finalArgs.push('--extractor-args', 'youtube:player_client=android');
 
     // Force IPv4 (YouTube blocks Datacenter IPv6)
     finalArgs.push('--force-ipv4');
