@@ -64,8 +64,8 @@ const runYtDlp = (args) => {
       finalArgs.push('--cookies', localCookies);
     }
 
-    // Switch to Android Client (Standard mobile emulation, often bypasses "Sign In" better than TV)
-    finalArgs.push('--extractor-args', 'youtube:player_client=android');
+    // Switch to Web Client (Matches the Desktop cookies we just exported)
+    finalArgs.push('--extractor-args', 'youtube:player_client=web');
 
     // Force IPv4 (YouTube blocks Datacenter IPv6)
     finalArgs.push('--force-ipv4');
