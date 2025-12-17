@@ -64,8 +64,11 @@ const runYtDlp = (args) => {
       finalArgs.push('--cookies', localCookies);
     }
 
-    // Switch to Web Client (Matches the Desktop cookies we just exported)
-    finalArgs.push('--extractor-args', 'youtube:player_client=web');
+    // Switch to iOS Client (Often less rate-limited)
+    finalArgs.push('--extractor-args', 'youtube:player_client=ios');
+
+    // Explicitly pass User Agent to match cookies
+    finalArgs.push('--user-agent', USER_AGENT);
 
     // Force IPv4 (YouTube blocks Datacenter IPv6)
     finalArgs.push('--force-ipv4');
@@ -137,7 +140,7 @@ app.get('/api/debug/test-download', async (req, res) => {
     const output = await runYtDlp([
       videoUrl,
       '--get-url',
-      '-f', 'bestaudio',
+      '-f', 'bestaudio/best',
       '--no-warnings'
     ]);
     const audioUrl = output.trim();
