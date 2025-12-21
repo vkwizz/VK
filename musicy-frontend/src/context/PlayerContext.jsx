@@ -88,37 +88,20 @@ export const PlayerProvider = ({ children }) => {
     }
   };
 
-  // Piped Logic
-  const PIPED_INSTANCES = [
-    "https://pipedapi.kavin.rocks",
-    "https://api.piped.privacy.com.de",
-    "https://pipedapi.leptons.xyz",
-    "https://pipedapi.drgns.space",
-    "https://api-piped.mha.fi"
-  ];
 
   const getBestAudioStream = async (videoId) => {
-    for (const instance of PIPED_INSTANCES) {
-      try {
-        const res = await fetch(`${instance}/streams/${videoId}`);
-        if (!res.ok) continue;
-
-        const data = await res.json();
-        const audio = data.audioStreams
-          .filter(s => s.codec !== 'opus' || s.bitrate > 0)
-          .sort((a, b) => b.bitrate - a.bitrate)[0];
-
-        if (audio?.url) {
-          console.log(`Resolved stream from ${instance}`);
-          return audio.url;
-        }
-      } catch (e) {
-        console.warn(`Failed to fetch from ${instance}`, e);
-        continue;
+    try {
+      const res = await api.get(`/api/resolve/${videoId}`);
+      if (res.data && res.data.url) {
+        console.log("Resolved audio stream via Backend");
+        return res.data.url;
       }
+    } catch (e) {
+      console.error("Failed to resolve audio stream:", e);
     }
     return null;
   };
+
 
   const playTrack = async (track, newQueue = null) => {
     setCurrentTrack(track);

@@ -175,10 +175,56 @@ mongoose.connect(MONGODB_URI)
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.error('MongoDB connection error:', err));
 
+
+// PIPED RESOLVER LOGIC (Server-Side to bypass CORS)
+const PIPED_INSTANCES = [
+  "https://pipedapi.kavin.rocks",
+  "https://api.piped.privacy.com.de",
+  "https://pipedapi.leptons.xyz",
+  "https://pipedapi.drgns.space",
+  "https://api-piped.mha.fi"
+];
+
+app.get('/api/resolve/:videoId', async (req, res) => {
+  const { videoId } = req.params;
+
+  console.log(`[RESOLVER] Attempting to resolve: ${videoId}`);
+
+  for (const instance of PIPED_INSTANCES) {
+    try {
+      // Server-side fetch bypasses Browser CORS
+      const response = await axios.get(`${instance}/streams/${videoId}`, {
+        timeout: 2000 // Fast fail
+      });
+
+      const data = response.data;
+      if (!data.audioStreams) continue;
+
+      // Select best audio
+      const audio = data.audioStreams
+        .filter(s => s.codec !== 'opus' || s.bitrate > 0)
+        .sort((a, b) => b.bitrate - a.bitrate)[0];
+
+      if (audio && audio.url) {
+        console.log(`[RESOLVER] Success via ${instance}`);
+        // Return JSON with the specific URL
+        return res.json({ url: audio.url });
+      }
+    } catch (e) {
+      // Silent fail, try next instance
+      // console.warn(`[RESOLVER] Failed ${instance}: ${e.message}`);
+    }
+  }
+
+  console.error(`[RESOLVER] All instances failed for ${videoId}`);
+  res.status(502).json({ error: 'Failed to resolve stream' });
+});
+
 // Health check
 app.get('/api/health', (_req, res) => {
   res.json({ ok: true });
 });
+
 
 // YouTube Search Proxy (using yt-dlp to avoid quota)
 app.get('/api/search', async (req, res) => {
