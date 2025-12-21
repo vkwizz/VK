@@ -107,12 +107,14 @@ export const PlayerProvider = ({ children }) => {
 
 
 
-    // Piped Logic (Server-Side Resolver via Backend)
+
+    // Piped Logic (Serverless Proxy via Vercel)
     const getBestAudioStream = async (videoId) => {
         try {
-            const res = await axios.get(`${backendUrl}/api/resolve/${videoId}`);
+            // Use Vercel Serverless Function (Production URL)
+            const res = await axios.get(`https://vk-hhfx.vercel.app/api/stream?videoId=${videoId}`);
             if (res.data && res.data.url) {
-                console.log("Resolved audio stream via Backend");
+                console.log("Resolved audio stream via Vercel Proxy");
                 return res.data.url;
             }
         } catch (e) {

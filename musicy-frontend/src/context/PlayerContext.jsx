@@ -89,12 +89,17 @@ export const PlayerProvider = ({ children }) => {
   };
 
 
+
   const getBestAudioStream = async (videoId) => {
     try {
-      const res = await api.get(`/api/resolve/${videoId}`);
-      if (res.data && res.data.url) {
-        console.log("Resolved audio stream via Backend");
-        return res.data.url;
+      // Calls your own Vercel API (No CORS!)
+      const res = await fetch(`/api/stream?videoId=${videoId}`);
+      if (res.ok) {
+        const data = await res.json();
+        if (data.url) {
+          console.log("Resolved audio stream via Vercel Proxy");
+          return data.url;
+        }
       }
     } catch (e) {
       console.error("Failed to resolve audio stream:", e);
