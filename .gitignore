@@ -7,3 +7,7 @@ build/
 *.log
 *.apk
 .vscode/
+cookies.txt
+server_output.txt
+temp_cookies.txt
+debug.txt

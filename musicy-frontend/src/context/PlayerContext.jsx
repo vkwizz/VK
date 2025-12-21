@@ -18,8 +18,6 @@ export const PlayerProvider = ({ children }) => {
   const [playlists, setPlaylists] = useState([]);
 
   // Fetch Liked Songs and Playlists on Mount
-
-  // Fetch Liked Songs and Playlists on Mount
   useEffect(() => {
     fetchLikedSongs();
     fetchPlaylists();
@@ -90,20 +88,48 @@ export const PlayerProvider = ({ children }) => {
     }
   };
 
+  // Piped Logic
+  const PIPED_INSTANCES = [
+    "https://pipedapi.kavin.rocks",
+    "https://api.piped.privacy.com.de",
+    "https://pipedapi.leptons.xyz",
+    "https://pipedapi.drgns.space",
+    "https://api-piped.mha.fi"
+  ];
+
+  const getBestAudioStream = async (videoId) => {
+    for (const instance of PIPED_INSTANCES) {
+      try {
+        const res = await fetch(`${instance}/streams/${videoId}`);
+        if (!res.ok) continue;
+
+        const data = await res.json();
+        const audio = data.audioStreams
+          .filter(s => s.codec !== 'opus' || s.bitrate > 0)
+          .sort((a, b) => b.bitrate - a.bitrate)[0];
+
+        if (audio?.url) {
+          console.log(`Resolved stream from ${instance}`);
+          return audio.url;
+        }
+      } catch (e) {
+        console.warn(`Failed to fetch from ${instance}`, e);
+        continue;
+      }
+    }
+    return null;
+  };
+
   const playTrack = async (track, newQueue = null) => {
     setCurrentTrack(track);
     setIsPlaying(true);
 
-    // Update Queue if provided
     if (newQueue) {
       setQueue(newQueue);
       const index = newQueue.findIndex(t => t.videoId === track.videoId);
       setCurrentIndex(index);
     } else {
-      // Playing a single track (e.g. from Search or Home)
-      // Always fetch related videos to create a radio/mix experience
       try {
-        // Optimistically set queue to just this track first
         setQueue([track]);
         setCurrentIndex(0);
 
@@ -114,33 +140,12 @@ export const PlayerProvider = ({ children }) => {
         }
       } catch (error) {
         console.error("Failed to fetch related videos:", error);
-        // Fallback: just keep the single track in queue
         setQueue([track]);
         setCurrentIndex(0);
       }
     }
 
-
     addToHistory(track);
-
-    // Trigger Preload for next track in context (if queue exists and has next)
-    // We do this slightly delayed to not block UI
-    setTimeout(() => {
-      // Decide next track
-      let nextT = null;
-      if (newQueue && newQueue.length > 1) {
-        const idx = newQueue.findIndex(t => t.videoId === track.videoId);
-        if (idx >= 0 && idx < newQueue.length - 1) nextT = newQueue[idx + 1];
-      } else if (queue.length > 0) {
-        const idx = queue.findIndex(t => t.videoId === track.videoId);
-        if (idx >= 0 && idx < queue.length - 1) nextT = queue[idx + 1];
-      }
-
-      if (nextT) {
-        console.log("Preloading next track:", nextT.title);
-        api.post('/api/preload', { videoId: nextT.videoId }).catch(e => console.error("Preload error", e));
-      }
-    }, 2000);
   };
 
   const playNext = () => {
@@ -197,7 +202,8 @@ export const PlayerProvider = ({ children }) => {
       likedSongs, toggleLike,
       shuffle, toggleShuffle,
       repeat, toggleRepeat,
-      playlists, createPlaylist, fetchPlaylists
+      playlists, createPlaylist, fetchPlaylists,
+      getBestAudioStream
     }}>
       {children}
     </PlayerContext.Provider>

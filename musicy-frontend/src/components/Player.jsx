@@ -5,13 +5,29 @@ import { api } from '../lib/api';
 import AddToPlaylistModal from './AddToPlaylistModal';
 
 const Player = () => {
+
   const {
     currentTrack, isPlaying, togglePlay, setIsPlaying,
     playNext, playPrevious, queue, playTrack,
     likedSongs, toggleLike,
     shuffle, toggleShuffle,
-    repeat, toggleRepeat
+    repeat, toggleRepeat,
+    getBestAudioStream
   } = usePlayer();
+
+  const [streamUrl, setStreamUrl] = useState(null);
+
+  useEffect(() => {
+    let active = true;
+    if (currentTrack) {
+      setStreamUrl(null); // Reset while loading
+      getBestAudioStream(currentTrack.videoId).then(url => {
+        if (active && url) setStreamUrl(url);
+      });
+    }
+    return () => { active = false; };
+  }, [currentTrack]);
+
 
   const [volume, setVolume] = useState(0.5);
   const [played, setPlayed] = useState(0);
@@ -111,8 +127,9 @@ const Player = () => {
 
   if (!currentTrack) return null;
 
-  // Use backend stream URL
-  const trackUrl = `https://vk-vkww.onrender.com/stream/${currentTrack.videoId}`;
+
+  const trackUrl = streamUrl;
+
   const isLiked = likedSongs.has(currentTrack.videoId);
 
   return (

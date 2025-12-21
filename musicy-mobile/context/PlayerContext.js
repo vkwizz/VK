@@ -105,6 +105,39 @@ export const PlayerProvider = ({ children }) => {
         };
     }, [sound]);
 
+
+    // Piped Logic
+    const PIPED_INSTANCES = [
+        "https://pipedapi.kavin.rocks",
+        "https://api.piped.privacy.com.de",
+        "https://pipedapi.leptons.xyz",
+        "https://pipedapi.drgns.space",
+        "https://api-piped.mha.fi"
+    ];
+
+    const getBestAudioStream = async (videoId) => {
+        for (const instance of PIPED_INSTANCES) {
+            try {
+                const res = await fetch(`${instance}/streams/${videoId}`);
+                if (!res.ok) continue;
+
+                const data = await res.json();
+                const audio = data.audioStreams
+                    .filter(s => s.codec !== 'opus' || s.bitrate > 0)
+                    .sort((a, b) => b.bitrate - a.bitrate)[0];
+
+                if (audio?.url) {
+                    console.log(`Resolved stream from ${instance}`);
+                    return audio.url;
+                }
+            } catch (e) {
+                console.warn(`Failed to fetch from ${instance}`, e);
+                continue;
+            }
+        }
+        return null;
+    };
+
     const playTrack = async (track, newQueue = null) => {
         setIsLoading(true);
         if (sound) {
@@ -137,18 +170,21 @@ export const PlayerProvider = ({ children }) => {
         addToHistory(track);
 
         try {
-            // 1. Check Cache
-            let uri = await getCachedPath(track.videoId);
-            let isCached = !!uri;
+            // 1. Check Cache (Disabled advanced caching for Piped transition for now)
+            // let uri = await getCachedPath(track.videoId); 
+            let uri = null;
 
-            if (!isCached) {
-                uri = `${backendUrl}/stream/${track.videoId}`;
-                console.log("Streaming from:", uri);
-                downloadTrack(track.videoId, backendUrl).then(localUri => {
-                    if (localUri) console.log("Background download complete:", localUri);
-                });
-            } else {
-                console.log("Playing from cache:", uri);
+            if (!uri) {
+                // Resolve via Piped
+                uri = await getBestAudioStream(track.videoId);
+                console.log("Streaming from Piped:", uri);
+            }
+
+            if (!uri) {
+                console.error("Failed to resolve stream");
+                setIsPlaying(false);
+                setIsLoading(false);
+                return;
             }
 
             const { sound: newSound } = await Audio.Sound.createAsync(

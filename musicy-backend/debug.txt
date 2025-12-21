@@ -988,3 +988,6 @@ yt-dlp success. Output length: 1090
 yt-dlp success. Output length: 29220
 Running yt-dlp with args: https://www.youtube.com/watch?v=WBF3lcqpOJY --get-url -f bestaudio --no-warnings
 yt-dlp success. Output length: 1116
+Running yt-dlp with args: https://www.youtube.com/watch?v=dQw4w9WgXcQ --get-url -f bestaudio --no-warnings --cookies D:\MUSICYAPP\musicy-backend\cookies.txt --extractor-args youtube:player_client=android --force-ipv4 --rm-cache-dir
+yt-dlp error: ERROR: [youtube] dQw4w9WgXcQ: Requested format is not available. Use --list-formats for a list of available formats
+
