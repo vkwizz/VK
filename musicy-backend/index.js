@@ -856,7 +856,7 @@ app.get('/stream/:videoId', async (req, res) => {
         const output = await runYtDlp([
           videoUrl,
           '--get-url',
-          '-f', 'bestaudio',
+          '-f', 'bestaudio/best',
           '--no-warnings'
         ]);
         audioUrl = output.trim();
@@ -967,7 +967,7 @@ app.post('/api/preload', async (req, res) => {
     const output = await runYtDlp([
       videoUrl,
       '--get-url',
-      '-f', 'bestaudio',
+      '-f', 'bestaudio/best',
       '--no-warnings'
     ]);
     const audioUrl = output.trim();
