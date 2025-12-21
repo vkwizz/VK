@@ -27,8 +27,13 @@ export default async function handler(req, res) {
         const timeoutId = setTimeout(() => controller.abort(), 4000); // 4s timeout per node
 
         try {
+
             const response = await fetch(`${node}/streams/${videoId}`, {
-                signal: controller.signal
+                signal: controller.signal,
+                headers: {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                    'Origin': 'https://www.youtube.com'
+                }
             });
             clearTimeout(timeoutId);
 
