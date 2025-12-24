@@ -90,14 +90,16 @@ export const PlayerProvider = ({ children }) => {
 
 
 
+
+
   const getBestAudioStream = async (videoId) => {
     try {
-      // Calls your own Vercel API (No CORS!)
+      // Calls Vercel API (now authenticated with cookies!)
       const res = await fetch(`/api/stream?videoId=${videoId}`);
       if (res.ok) {
         const data = await res.json();
         if (data.url) {
-          console.log("Resolved audio stream via Vercel Proxy");
+          console.log("Resolved audio stream via Authenticated Vercel Proxy");
           return data.url;
         }
       }
